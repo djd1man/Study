@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventWaitForItse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEventConsoleOutput", "AutoResetEventConsoleOutput\AutoResetEventConsoleOutput.csproj", "{04F94FD1-4B04-48C1-A24C-512681D73FDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreThrottlingQueue", "SemaphoreThrottlingQueue\SemaphoreThrottlingQueue.csproj", "{C257211B-6407-463D-84B3-F9A1FE6D568B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{04F94FD1-4B04-48C1-A24C-512681D73FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F94FD1-4B04-48C1-A24C-512681D73FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04F94FD1-4B04-48C1-A24C-512681D73FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C257211B-6407-463D-84B3-F9A1FE6D568B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C257211B-6407-463D-84B3-F9A1FE6D568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C257211B-6407-463D-84B3-F9A1FE6D568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C257211B-6407-463D-84B3-F9A1FE6D568B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
