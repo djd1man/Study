@@ -39,7 +39,7 @@ namespace InterlockedProj
             }
         }
 
-        public static InterlockedSlim _locker = new InterlockedSlim();
+        private static InterlockedSlim _locker = new InterlockedSlim();
 
         private static int _variable = 0;
     }
